@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="user1" class="kz.iitu.ioc.User">
+        <property name="id" value="1"/>
+        <property name="name" value="Alexa_G"/>
+        <property name="cardNumber" value="4669897724657621"/>
+        <property name="cvv" value="312"/>
+        <property name="money" value="1000000000"/>
+        <property name="pin" value="6952"/>
+    </bean>
+    <bean id="user2" class="kz.iitu.ioc.User">
+        <property name="id" value="2"/>
+        <property name="name" value="Gregor_W"/>
+        <property name="cardNumber" value="5710822163212758"/>
+        <property name="cvv" value="224"/>
+        <property name="money" value="1000000000"/>
+        <property name="pin" value="4765"/>
+    </bean>
+    <bean id="user3" class="kz.iitu.ioc.User">
+        <property name="id" value="3"/>
+        <property name="name" value="Jaina_P"/>
+        <property name="cardNumber" value="5920131133796038"/>
+        <property name="cvv" value="677"/>
+        <property name="money" value="1000000000"/>
+        <property name="pin" value="2370"/>
+    </bean>
+
+    <!--    private int id;-->
+    <!--    private String name;-->
+    <!--    private String cardNumber;-->
+    <!--    private int cvv;-->
+    <!--    private long money;-->
+    <!--    private String pin;-->
+
+<!--    <bean id="tiger" class="kz.iitu.ioc.Tiger">-->
+<!--        <property name="name" value="TigerName"></property>-->
+<!--        <property name="age" value="5"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="animal" class="kz.iitu.ioc.Lion">-->
+<!--        <constructor-arg name="name" value="LionName"></constructor-arg>-->
+<!--    </bean>-->
+
+<!--    <bean id="job" class="kz.iitu.ioc.Job">-->
+<!--        <property name="title" value="asdasdas"></property>-->
+<!--        <property name="organization" value="asdasdas"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="person" class="kz.iitu.ioc.Person">-->
+<!--        <property name="name" value="PersonName"></property>-->
+<!--        <property name="job" ref="job"></property>-->
+<!--    </bean>-->
+</beans>
